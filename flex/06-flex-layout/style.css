@@ -46,10 +46,13 @@ ul {
 
 .content {
 display: flex;
-/* flex: 1;*/
+/* flex: 1; here instead of justify content,
+not sure if it really matters. adding background
+color to this helped me understand it lol*/
 flex-direction: column;
 justify-content: center;
 align-items: center;
+background-color: lightgoldenrodyellow;
 }
 
 /* should have combined header and footer */
